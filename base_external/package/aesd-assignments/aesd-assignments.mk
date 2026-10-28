@@ -7,8 +7,8 @@
 # SITE must use the ssh (git@github.com:) form: the course autotest
 # (assignment-autotest/test/shared/buildroot-common-build.sh) records a
 # validation error and rewrites the file if this line starts with https.
-# VERSION is the published assignment 8 commit (aesdchar driver, aesdsocket on /dev/aesdchar).
-AESD_ASSIGNMENTS_VERSION = 000194d3e6fe18909eb33660b629c34b7158572b
+# VERSION is the published assignment 9 commit (aesdchar llseek and AESDCHAR_IOCSEEKTO, aesdsocket seek command).
+AESD_ASSIGNMENTS_VERSION = 37cf1018f72b0abe07f08b49e76521a2714a2d23
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-aeld/assignment-3-julian-werder.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
